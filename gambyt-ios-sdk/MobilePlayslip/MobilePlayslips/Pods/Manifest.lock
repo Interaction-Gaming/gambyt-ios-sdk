@@ -1,0 +1,25 @@
+PODS:
+  - lottie-ios (3.1.9)
+  - LottoLog (1.1.0)
+  - ReSwift (5.0.0)
+
+DEPENDENCIES:
+  - lottie-ios (~> 3.1.9)
+  - LottoLog (~> 1.1.0)
+  - ReSwift (~> 5.0.0)
+
+SPEC REPOS:
+  "git@github.com:Interaction-Gaming/ig-private-podspec.git":
+    - LottoLog
+  https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
+    - ReSwift
+
+SPEC CHECKSUMS:
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  LottoLog: 0adf1d8b34b53f28fb2c64882b72dff1d2098087
+  ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
+
+PODFILE CHECKSUM: ed5ccf5d0ae55614d5bb939531bfd7ab762c4931
+
+COCOAPODS: 1.11.3

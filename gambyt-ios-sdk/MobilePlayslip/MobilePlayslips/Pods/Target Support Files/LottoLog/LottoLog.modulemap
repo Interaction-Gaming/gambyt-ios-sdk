@@ -1,0 +1,6 @@
+framework module LottoLog {
+  umbrella header "LottoLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
