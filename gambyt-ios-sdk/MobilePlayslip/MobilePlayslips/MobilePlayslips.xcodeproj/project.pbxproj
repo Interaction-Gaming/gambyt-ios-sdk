@@ -10,6 +10,52 @@
 		0C143622281AE67D00FB522C /* MobilePlayslips.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C143621281AE67D00FB522C /* MobilePlayslips.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C85A556281B10D200EB3570 /* LotteryAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A555281B10D200EB3570 /* LotteryAnimationView.swift */; };
 		0C85A558281B10FA00EB3570 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A557281B10FA00EB3570 /* UIView+extension.swift */; };
+		0C85A55A281B187500EB3570 /* DrawGameIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A559281B187500EB3570 /* DrawGameIdentifier.swift */; };
+		0C85A55C281B18FD00EB3570 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A55B281B18FD00EB3570 /* NumberView.swift */; };
+		0C85A55E281B195600EB3570 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A55D281B195600EB3570 /* UIColor+extension.swift */; };
+		0C85A560281B1AE200EB3570 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A55F281B1AE200EB3570 /* DynamicHeightCollectionView.swift */; };
+		0C85A562281B234900EB3570 /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A561281B234900EB3570 /* Array+extension.swift */; };
+		0C85A565281B285F00EB3570 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A564281B285F00EB3570 /* Store.swift */; };
+		0C85A56E281C20CC00EB3570 /* RootReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A56D281C20CC00EB3570 /* RootReducer.swift */; };
+		0C85A570281C224400EB3570 /* MobilePlayslipsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A56F281C224400EB3570 /* MobilePlayslipsReducer.swift */; };
+		0C85A572281C244800EB3570 /* ReswiftTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A571281C244800EB3570 /* ReswiftTestHelpers.swift */; };
+		0C85A577281C26E800EB3570 /* MPSPlayslipLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A573281C26E700EB3570 /* MPSPlayslipLineTableViewCell.swift */; };
+		0C85A578281C26E800EB3570 /* MPSNumberGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A574281C26E800EB3570 /* MPSNumberGridCollectionViewCell.swift */; };
+		0C85A579281C26E800EB3570 /* MPSNumberGridCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A575281C26E800EB3570 /* MPSNumberGridCollectionViewHeader.swift */; };
+		0C85A57A281C26E800EB3570 /* MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A576281C26E800EB3570 /* MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift */; };
+		0C85A585281C3E9600EB3570 /* PlayslipLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A57C281C3E9500EB3570 /* PlayslipLine.swift */; };
+		0C85A586281C3E9600EB3570 /* PlayslipWagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A57D281C3E9500EB3570 /* PlayslipWagerType.swift */; };
+		0C85A587281C3E9600EB3570 /* NumberPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A57E281C3E9500EB3570 /* NumberPool.swift */; };
+		0C85A588281C3E9600EB3570 /* NumberSequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A57F281C3E9500EB3570 /* NumberSequenceType.swift */; };
+		0C85A589281C3E9600EB3570 /* Playslip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A580281C3E9500EB3570 /* Playslip.swift */; };
+		0C85A58A281C3E9600EB3570 /* PlayslipMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A581281C3E9500EB3570 /* PlayslipMetadata.swift */; };
+		0C85A58B281C3E9600EB3570 /* PlayslipDrawSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A582281C3E9600EB3570 /* PlayslipDrawSequence.swift */; };
+		0C85A58C281C3E9600EB3570 /* PlayslipNumberRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A583281C3E9600EB3570 /* PlayslipNumberRange.swift */; };
+		0C85A58D281C3E9600EB3570 /* PlayslipWager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A584281C3E9600EB3570 /* PlayslipWager.swift */; };
+		0C85A593281C3F0100EB3570 /* PlayslipGameMultiplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A58F281C3F0100EB3570 /* PlayslipGameMultiplier.swift */; };
+		0C85A594281C3F0100EB3570 /* PlayslipGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A590281C3F0100EB3570 /* PlayslipGame.swift */; };
+		0C85A595281C3F0100EB3570 /* PlayslipGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A591281C3F0100EB3570 /* PlayslipGameList.swift */; };
+		0C85A596281C3F0100EB3570 /* PlayslipGameWagerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A592281C3F0100EB3570 /* PlayslipGameWagerOption.swift */; };
+		0C85A598281C45B500EB3570 /* MobilePlayslipsActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A597281C45B500EB3570 /* MobilePlayslipsActions.swift */; };
+		0C85A59A281C45F600EB3570 /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A599281C45F600EB3570 /* Double+extension.swift */; };
+		0C85A59C281C466600EB3570 /* UIFont+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A59B281C466600EB3570 /* UIFont+extension.swift */; };
+		0C85A59E281C469800EB3570 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A59D281C469800EB3570 /* AlignedCollectionViewFlowLayout.swift */; };
+		0C85A5A6281C46DB00EB3570 /* StandardCostCalculatorStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A0281C46DA00EB3570 /* StandardCostCalculatorStrategy.swift */; };
+		0C85A5A7281C46DB00EB3570 /* StandardWithMultiplierCostCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A1281C46DA00EB3570 /* StandardWithMultiplierCostCalculationStrategy.swift */; };
+		0C85A5A8281C46DB00EB3570 /* CostCalculationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A2281C46DA00EB3570 /* CostCalculationContext.swift */; };
+		0C85A5A9281C46DB00EB3570 /* ComboCostCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A3281C46DA00EB3570 /* ComboCostCalculationStrategy.swift */; };
+		0C85A5AA281C46DB00EB3570 /* CostCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A4281C46DB00EB3570 /* CostCalculationStrategy.swift */; };
+		0C85A5AB281C46DB00EB3570 /* RapidDrawCostCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5A5281C46DB00EB3570 /* RapidDrawCostCalculationStrategy.swift */; };
+		0C85A5AE281C471B00EB3570 /* PlayslipValidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5AD281C471B00EB3570 /* PlayslipValidationContext.swift */; };
+		0C85A5B9281C476000EB3570 /* PlayslipEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B0281C475F00EB3570 /* PlayslipEncodingStrategy.swift */; };
+		0C85A5BA281C476000EB3570 /* PlayslipEncodingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B1281C475F00EB3570 /* PlayslipEncodingContext.swift */; };
+		0C85A5BB281C476000EB3570 /* PowerballMegaMillionsEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B2281C475F00EB3570 /* PowerballMegaMillionsEncodingStrategy.swift */; };
+		0C85A5BC281C476000EB3570 /* KenoEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B3281C476000EB3570 /* KenoEncodingStrategy.swift */; };
+		0C85A5BD281C476000EB3570 /* MassCashEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B4281C476000EB3570 /* MassCashEncodingStrategy.swift */; };
+		0C85A5BE281C476000EB3570 /* MegabucksDoublerEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B5281C476000EB3570 /* MegabucksDoublerEncodingStrategy.swift */; };
+		0C85A5BF281C476000EB3570 /* AllOrNothingEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B6281C476000EB3570 /* AllOrNothingEncodingStrategy.swift */; };
+		0C85A5C0281C476000EB3570 /* TheNumbersGameEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B7281C476000EB3570 /* TheNumbersGameEncodingStrategy.swift */; };
+		0C85A5C1281C476000EB3570 /* LuckyForLifeEncodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85A5B8281C476000EB3570 /* LuckyForLifeEncodingStrategy.swift */; };
 		0C92E8D7281B08EC003F7AA3 /* MPSAddOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8CF281B08EB003F7AA3 /* MPSAddOnViewController.swift */; };
 		0C92E8D8281B08EC003F7AA3 /* MPSDrawGameAddOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8D0281B08EB003F7AA3 /* MPSDrawGameAddOnViewController.swift */; };
 		0C92E8D9281B08EC003F7AA3 /* MPSMultiLinePlayslipBuilderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8D1281B08EB003F7AA3 /* MPSMultiLinePlayslipBuilderTableViewController.swift */; };
@@ -20,12 +66,7 @@
 		0C92E8DE281B08EC003F7AA3 /* MPSCTAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8D6281B08EC003F7AA3 /* MPSCTAViewController.swift */; };
 		0C92E8E1281B091A003F7AA3 /* MPSAllOrNothingNumberGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8DF281B091A003F7AA3 /* MPSAllOrNothingNumberGridCollectionViewController.swift */; };
 		0C92E8E2281B091A003F7AA3 /* MPSNumberGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8E0281B091A003F7AA3 /* MPSNumberGridCollectionViewController.swift */; };
-		0C92E8EB281B09A6003F7AA3 /* Validation in Resources */ = {isa = PBXBuildFile; fileRef = 0C92E8E4281B09A6003F7AA3 /* Validation */; };
 		0C92E8EC281B09A6003F7AA3 /* WagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8E5281B09A6003F7AA3 /* WagerType.swift */; };
-		0C92E8ED281B09A6003F7AA3 /* Encoding in Resources */ = {isa = PBXBuildFile; fileRef = 0C92E8E6281B09A6003F7AA3 /* Encoding */; };
-		0C92E8EE281B09A6003F7AA3 /* CostCalculation in Resources */ = {isa = PBXBuildFile; fileRef = 0C92E8E7281B09A6003F7AA3 /* CostCalculation */; };
-		0C92E8EF281B09A6003F7AA3 /* Playslip in Resources */ = {isa = PBXBuildFile; fileRef = 0C92E8E8281B09A6003F7AA3 /* Playslip */; };
-		0C92E8F0281B09A6003F7AA3 /* PlayslipGame in Resources */ = {isa = PBXBuildFile; fileRef = 0C92E8E9281B09A6003F7AA3 /* PlayslipGame */; };
 		0C92E8F1281B09A6003F7AA3 /* PlayslipBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C92E8EA281B09A6003F7AA3 /* PlayslipBuilder.swift */; };
 		0C9678BC281B0ECC00340220 /* LotteryViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9678BB281B0ECC00340220 /* LotteryViewControllerBase.swift */; };
 		0C9678BF281B0F4900340220 /* Designables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9678BE281B0F4900340220 /* Designables.swift */; };
@@ -38,6 +79,52 @@
 		0C143621281AE67D00FB522C /* MobilePlayslips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePlayslips.h; sourceTree = "<group>"; };
 		0C85A555281B10D200EB3570 /* LotteryAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryAnimationView.swift; sourceTree = "<group>"; };
 		0C85A557281B10FA00EB3570 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		0C85A559281B187500EB3570 /* DrawGameIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawGameIdentifier.swift; sourceTree = "<group>"; };
+		0C85A55B281B18FD00EB3570 /* NumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		0C85A55D281B195600EB3570 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		0C85A55F281B1AE200EB3570 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
+		0C85A561281B234900EB3570 /* Array+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
+		0C85A564281B285F00EB3570 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		0C85A56D281C20CC00EB3570 /* RootReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootReducer.swift; sourceTree = "<group>"; };
+		0C85A56F281C224400EB3570 /* MobilePlayslipsReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayslipsReducer.swift; sourceTree = "<group>"; };
+		0C85A571281C244800EB3570 /* ReswiftTestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReswiftTestHelpers.swift; sourceTree = "<group>"; };
+		0C85A573281C26E700EB3570 /* MPSPlayslipLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSPlayslipLineTableViewCell.swift; sourceTree = "<group>"; };
+		0C85A574281C26E800EB3570 /* MPSNumberGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSNumberGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C85A575281C26E800EB3570 /* MPSNumberGridCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSNumberGridCollectionViewHeader.swift; sourceTree = "<group>"; };
+		0C85A576281C26E800EB3570 /* MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C85A57C281C3E9500EB3570 /* PlayslipLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipLine.swift; sourceTree = "<group>"; };
+		0C85A57D281C3E9500EB3570 /* PlayslipWagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipWagerType.swift; sourceTree = "<group>"; };
+		0C85A57E281C3E9500EB3570 /* NumberPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPool.swift; sourceTree = "<group>"; };
+		0C85A57F281C3E9500EB3570 /* NumberSequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSequenceType.swift; sourceTree = "<group>"; };
+		0C85A580281C3E9500EB3570 /* Playslip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playslip.swift; sourceTree = "<group>"; };
+		0C85A581281C3E9500EB3570 /* PlayslipMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipMetadata.swift; sourceTree = "<group>"; };
+		0C85A582281C3E9600EB3570 /* PlayslipDrawSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipDrawSequence.swift; sourceTree = "<group>"; };
+		0C85A583281C3E9600EB3570 /* PlayslipNumberRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipNumberRange.swift; sourceTree = "<group>"; };
+		0C85A584281C3E9600EB3570 /* PlayslipWager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipWager.swift; sourceTree = "<group>"; };
+		0C85A58F281C3F0100EB3570 /* PlayslipGameMultiplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipGameMultiplier.swift; sourceTree = "<group>"; };
+		0C85A590281C3F0100EB3570 /* PlayslipGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipGame.swift; sourceTree = "<group>"; };
+		0C85A591281C3F0100EB3570 /* PlayslipGameList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipGameList.swift; sourceTree = "<group>"; };
+		0C85A592281C3F0100EB3570 /* PlayslipGameWagerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipGameWagerOption.swift; sourceTree = "<group>"; };
+		0C85A597281C45B500EB3570 /* MobilePlayslipsActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayslipsActions.swift; sourceTree = "<group>"; };
+		0C85A599281C45F600EB3570 /* Double+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		0C85A59B281C466600EB3570 /* UIFont+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+extension.swift"; sourceTree = "<group>"; };
+		0C85A59D281C469800EB3570 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0C85A5A0281C46DA00EB3570 /* StandardCostCalculatorStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardCostCalculatorStrategy.swift; sourceTree = "<group>"; };
+		0C85A5A1281C46DA00EB3570 /* StandardWithMultiplierCostCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardWithMultiplierCostCalculationStrategy.swift; sourceTree = "<group>"; };
+		0C85A5A2281C46DA00EB3570 /* CostCalculationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostCalculationContext.swift; sourceTree = "<group>"; };
+		0C85A5A3281C46DA00EB3570 /* ComboCostCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComboCostCalculationStrategy.swift; sourceTree = "<group>"; };
+		0C85A5A4281C46DB00EB3570 /* CostCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CostCalculationStrategy.swift; sourceTree = "<group>"; };
+		0C85A5A5281C46DB00EB3570 /* RapidDrawCostCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapidDrawCostCalculationStrategy.swift; sourceTree = "<group>"; };
+		0C85A5AD281C471B00EB3570 /* PlayslipValidationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipValidationContext.swift; sourceTree = "<group>"; };
+		0C85A5B0281C475F00EB3570 /* PlayslipEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B1281C475F00EB3570 /* PlayslipEncodingContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipEncodingContext.swift; sourceTree = "<group>"; };
+		0C85A5B2281C475F00EB3570 /* PowerballMegaMillionsEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerballMegaMillionsEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B3281C476000EB3570 /* KenoEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KenoEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B4281C476000EB3570 /* MassCashEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassCashEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B5281C476000EB3570 /* MegabucksDoublerEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MegabucksDoublerEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B6281C476000EB3570 /* AllOrNothingEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOrNothingEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B7281C476000EB3570 /* TheNumbersGameEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheNumbersGameEncodingStrategy.swift; sourceTree = "<group>"; };
+		0C85A5B8281C476000EB3570 /* LuckyForLifeEncodingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyForLifeEncodingStrategy.swift; sourceTree = "<group>"; };
 		0C92E8CF281B08EB003F7AA3 /* MPSAddOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSAddOnViewController.swift; sourceTree = "<group>"; };
 		0C92E8D0281B08EB003F7AA3 /* MPSDrawGameAddOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSDrawGameAddOnViewController.swift; sourceTree = "<group>"; };
 		0C92E8D1281B08EB003F7AA3 /* MPSMultiLinePlayslipBuilderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSMultiLinePlayslipBuilderTableViewController.swift; sourceTree = "<group>"; };
@@ -48,12 +135,7 @@
 		0C92E8D6281B08EC003F7AA3 /* MPSCTAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSCTAViewController.swift; sourceTree = "<group>"; };
 		0C92E8DF281B091A003F7AA3 /* MPSAllOrNothingNumberGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSAllOrNothingNumberGridCollectionViewController.swift; sourceTree = "<group>"; };
 		0C92E8E0281B091A003F7AA3 /* MPSNumberGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSNumberGridCollectionViewController.swift; sourceTree = "<group>"; };
-		0C92E8E4281B09A6003F7AA3 /* Validation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Validation; sourceTree = "<group>"; };
 		0C92E8E5281B09A6003F7AA3 /* WagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WagerType.swift; sourceTree = "<group>"; };
-		0C92E8E6281B09A6003F7AA3 /* Encoding */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Encoding; sourceTree = "<group>"; };
-		0C92E8E7281B09A6003F7AA3 /* CostCalculation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CostCalculation; sourceTree = "<group>"; };
-		0C92E8E8281B09A6003F7AA3 /* Playslip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Playslip; sourceTree = "<group>"; };
-		0C92E8E9281B09A6003F7AA3 /* PlayslipGame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlayslipGame; sourceTree = "<group>"; };
 		0C92E8EA281B09A6003F7AA3 /* PlayslipBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayslipBuilder.swift; sourceTree = "<group>"; };
 		0C9678BB281B0ECC00340220 /* LotteryViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryViewControllerBase.swift; sourceTree = "<group>"; };
 		0C9678BE281B0F4900340220 /* Designables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designables.swift; sourceTree = "<group>"; };
@@ -96,6 +178,7 @@
 		0C143620281AE67D00FB522C /* MobilePlayslips */ = {
 			isa = PBXGroup;
 			children = (
+				0C85A563281B284500EB3570 /* Flux */,
 				0C92E8E3281B0949003F7AA3 /* Model */,
 				0C9678C0281B0FBC00340220 /* View */,
 				0C92E8F2281B09B8003F7AA3 /* ViewController */,
@@ -104,6 +187,114 @@
 				0C143621281AE67D00FB522C /* MobilePlayslips.h */,
 			);
 			path = MobilePlayslips;
+			sourceTree = "<group>";
+		};
+		0C85A563281B284500EB3570 /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A56C281B2B7000EB3570 /* Actions */,
+				0C85A56B281B2B6800EB3570 /* Reducers */,
+				0C85A56A281B2B4A00EB3570 /* Middleware */,
+				0C85A566281B2AFC00EB3570 /* States */,
+				0C85A564281B285F00EB3570 /* Store.swift */,
+				0C85A571281C244800EB3570 /* ReswiftTestHelpers.swift */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		0C85A566281B2AFC00EB3570 /* States */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		0C85A56A281B2B4A00EB3570 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		0C85A56B281B2B6800EB3570 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A56F281C224400EB3570 /* MobilePlayslipsReducer.swift */,
+				0C85A56D281C20CC00EB3570 /* RootReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		0C85A56C281B2B7000EB3570 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A597281C45B500EB3570 /* MobilePlayslipsActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		0C85A57B281C3E5400EB3570 /* Playslip */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A57E281C3E9500EB3570 /* NumberPool.swift */,
+				0C85A57F281C3E9500EB3570 /* NumberSequenceType.swift */,
+				0C85A580281C3E9500EB3570 /* Playslip.swift */,
+				0C85A582281C3E9600EB3570 /* PlayslipDrawSequence.swift */,
+				0C85A57C281C3E9500EB3570 /* PlayslipLine.swift */,
+				0C85A581281C3E9500EB3570 /* PlayslipMetadata.swift */,
+				0C85A583281C3E9600EB3570 /* PlayslipNumberRange.swift */,
+				0C85A584281C3E9600EB3570 /* PlayslipWager.swift */,
+				0C85A57D281C3E9500EB3570 /* PlayslipWagerType.swift */,
+			);
+			path = Playslip;
+			sourceTree = "<group>";
+		};
+		0C85A58E281C3ECC00EB3570 /* PlayslipGame */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A590281C3F0100EB3570 /* PlayslipGame.swift */,
+				0C85A591281C3F0100EB3570 /* PlayslipGameList.swift */,
+				0C85A58F281C3F0100EB3570 /* PlayslipGameMultiplier.swift */,
+				0C85A592281C3F0100EB3570 /* PlayslipGameWagerOption.swift */,
+			);
+			path = PlayslipGame;
+			sourceTree = "<group>";
+		};
+		0C85A59F281C46BA00EB3570 /* CostCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A5A3281C46DA00EB3570 /* ComboCostCalculationStrategy.swift */,
+				0C85A5A2281C46DA00EB3570 /* CostCalculationContext.swift */,
+				0C85A5A4281C46DB00EB3570 /* CostCalculationStrategy.swift */,
+				0C85A5A5281C46DB00EB3570 /* RapidDrawCostCalculationStrategy.swift */,
+				0C85A5A0281C46DA00EB3570 /* StandardCostCalculatorStrategy.swift */,
+				0C85A5A1281C46DA00EB3570 /* StandardWithMultiplierCostCalculationStrategy.swift */,
+			);
+			path = CostCalculation;
+			sourceTree = "<group>";
+		};
+		0C85A5AC281C470400EB3570 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A5AD281C471B00EB3570 /* PlayslipValidationContext.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		0C85A5AF281C473200EB3570 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				0C85A5B6281C476000EB3570 /* AllOrNothingEncodingStrategy.swift */,
+				0C85A5B3281C476000EB3570 /* KenoEncodingStrategy.swift */,
+				0C85A5B8281C476000EB3570 /* LuckyForLifeEncodingStrategy.swift */,
+				0C85A5B4281C476000EB3570 /* MassCashEncodingStrategy.swift */,
+				0C85A5B5281C476000EB3570 /* MegabucksDoublerEncodingStrategy.swift */,
+				0C85A5B1281C475F00EB3570 /* PlayslipEncodingContext.swift */,
+				0C85A5B0281C475F00EB3570 /* PlayslipEncodingStrategy.swift */,
+				0C85A5B2281C475F00EB3570 /* PowerballMegaMillionsEncodingStrategy.swift */,
+				0C85A5B7281C476000EB3570 /* TheNumbersGameEncodingStrategy.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 		0C92E8CE281B089A003F7AA3 /* NumberGrid */ = {
@@ -118,12 +309,13 @@
 		0C92E8E3281B0949003F7AA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0C92E8E7281B09A6003F7AA3 /* CostCalculation */,
-				0C92E8E6281B09A6003F7AA3 /* Encoding */,
-				0C92E8E8281B09A6003F7AA3 /* Playslip */,
+				0C85A5AF281C473200EB3570 /* Encoding */,
+				0C85A5AC281C470400EB3570 /* Validation */,
+				0C85A59F281C46BA00EB3570 /* CostCalculation */,
+				0C85A58E281C3ECC00EB3570 /* PlayslipGame */,
+				0C85A57B281C3E5400EB3570 /* Playslip */,
+				0C85A559281B187500EB3570 /* DrawGameIdentifier.swift */,
 				0C92E8EA281B09A6003F7AA3 /* PlayslipBuilder.swift */,
-				0C92E8E9281B09A6003F7AA3 /* PlayslipGame */,
-				0C92E8E4281B09A6003F7AA3 /* Validation */,
 				0C92E8E5281B09A6003F7AA3 /* WagerType.swift */,
 			);
 			path = Model;
@@ -148,6 +340,10 @@
 		0C9678BD281B0F0600340220 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0C85A59B281C466600EB3570 /* UIFont+extension.swift */,
+				0C85A599281C45F600EB3570 /* Double+extension.swift */,
+				0C85A561281B234900EB3570 /* Array+extension.swift */,
+				0C85A55D281B195600EB3570 /* UIColor+extension.swift */,
 				0C85A557281B10FA00EB3570 /* UIView+extension.swift */,
 				0C9678BE281B0F4900340220 /* Designables.swift */,
 			);
@@ -157,6 +353,13 @@
 		0C9678C0281B0FBC00340220 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C85A59D281C469800EB3570 /* AlignedCollectionViewFlowLayout.swift */,
+				0C85A574281C26E800EB3570 /* MPSNumberGridCollectionViewCell.swift */,
+				0C85A575281C26E800EB3570 /* MPSNumberGridCollectionViewHeader.swift */,
+				0C85A573281C26E700EB3570 /* MPSPlayslipLineTableViewCell.swift */,
+				0C85A576281C26E800EB3570 /* MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift */,
+				0C85A55F281B1AE200EB3570 /* DynamicHeightCollectionView.swift */,
+				0C85A55B281B18FD00EB3570 /* NumberView.swift */,
 				0C85A555281B10D200EB3570 /* LotteryAnimationView.swift */,
 				0C9678C1281B100B00340220 /* WinningNumbersStackView.swift */,
 			);
@@ -251,11 +454,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C92E8F0281B09A6003F7AA3 /* PlayslipGame in Resources */,
-				0C92E8EE281B09A6003F7AA3 /* CostCalculation in Resources */,
-				0C92E8EB281B09A6003F7AA3 /* Validation in Resources */,
-				0C92E8EF281B09A6003F7AA3 /* Playslip in Resources */,
-				0C92E8ED281B09A6003F7AA3 /* Encoding in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +490,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C92E8DD281B08EC003F7AA3 /* MPSRapidDrawPlayslipBuilderViewController.swift in Sources */,
+				0C85A55C281B18FD00EB3570 /* NumberView.swift in Sources */,
+				0C85A5BA281C476000EB3570 /* PlayslipEncodingContext.swift in Sources */,
 				0C92E8DB281B08EC003F7AA3 /* MPSConfirmNavigationViewController.swift in Sources */,
 				0C92E8D8281B08EC003F7AA3 /* MPSDrawGameAddOnViewController.swift in Sources */,
 				0C85A558281B10FA00EB3570 /* UIView+extension.swift in Sources */,
+				0C85A58D281C3E9600EB3570 /* PlayslipWager.swift in Sources */,
+				0C85A565281B285F00EB3570 /* Store.swift in Sources */,
+				0C85A594281C3F0100EB3570 /* PlayslipGame.swift in Sources */,
+				0C85A589281C3E9600EB3570 /* Playslip.swift in Sources */,
+				0C85A5C1281C476000EB3570 /* LuckyForLifeEncodingStrategy.swift in Sources */,
 				0C85A556281B10D200EB3570 /* LotteryAnimationView.swift in Sources */,
+				0C85A585281C3E9600EB3570 /* PlayslipLine.swift in Sources */,
+				0C85A595281C3F0100EB3570 /* PlayslipGameList.swift in Sources */,
+				0C85A5AE281C471B00EB3570 /* PlayslipValidationContext.swift in Sources */,
 				0C92E8D7281B08EC003F7AA3 /* MPSAddOnViewController.swift in Sources */,
+				0C85A57A281C26E800EB3570 /* MPSRapidDrawAddOnWagerAmountCollectionViewCell.swift in Sources */,
+				0C85A579281C26E800EB3570 /* MPSNumberGridCollectionViewHeader.swift in Sources */,
+				0C85A55E281B195600EB3570 /* UIColor+extension.swift in Sources */,
+				0C85A593281C3F0100EB3570 /* PlayslipGameMultiplier.swift in Sources */,
+				0C85A55A281B187500EB3570 /* DrawGameIdentifier.swift in Sources */,
+				0C85A56E281C20CC00EB3570 /* RootReducer.swift in Sources */,
 				0C92E8DE281B08EC003F7AA3 /* MPSCTAViewController.swift in Sources */,
+				0C85A58C281C3E9600EB3570 /* PlayslipNumberRange.swift in Sources */,
+				0C85A5AB281C46DB00EB3570 /* RapidDrawCostCalculationStrategy.swift in Sources */,
 				0C92E8D9281B08EC003F7AA3 /* MPSMultiLinePlayslipBuilderTableViewController.swift in Sources */,
 				0C9678C2281B100B00340220 /* WinningNumbersStackView.swift in Sources */,
+				0C85A5BE281C476000EB3570 /* MegabucksDoublerEncodingStrategy.swift in Sources */,
+				0C85A5BD281C476000EB3570 /* MassCashEncodingStrategy.swift in Sources */,
+				0C85A578281C26E800EB3570 /* MPSNumberGridCollectionViewCell.swift in Sources */,
 				0C92E8DA281B08EC003F7AA3 /* MPSRapidDrawAddOnViewController.swift in Sources */,
 				0C92E8E1281B091A003F7AA3 /* MPSAllOrNothingNumberGridCollectionViewController.swift in Sources */,
+				0C85A59C281C466600EB3570 /* UIFont+extension.swift in Sources */,
 				0C92E8E2281B091A003F7AA3 /* MPSNumberGridCollectionViewController.swift in Sources */,
 				0C92E8F1281B09A6003F7AA3 /* PlayslipBuilder.swift in Sources */,
+				0C85A5A7281C46DB00EB3570 /* StandardWithMultiplierCostCalculationStrategy.swift in Sources */,
 				0C9678BC281B0ECC00340220 /* LotteryViewControllerBase.swift in Sources */,
+				0C85A58B281C3E9600EB3570 /* PlayslipDrawSequence.swift in Sources */,
+				0C85A577281C26E800EB3570 /* MPSPlayslipLineTableViewCell.swift in Sources */,
+				0C85A587281C3E9600EB3570 /* NumberPool.swift in Sources */,
+				0C85A5BB281C476000EB3570 /* PowerballMegaMillionsEncodingStrategy.swift in Sources */,
+				0C85A5C0281C476000EB3570 /* TheNumbersGameEncodingStrategy.swift in Sources */,
+				0C85A586281C3E9600EB3570 /* PlayslipWagerType.swift in Sources */,
+				0C85A570281C224400EB3570 /* MobilePlayslipsReducer.swift in Sources */,
+				0C85A58A281C3E9600EB3570 /* PlayslipMetadata.swift in Sources */,
+				0C85A560281B1AE200EB3570 /* DynamicHeightCollectionView.swift in Sources */,
+				0C85A59A281C45F600EB3570 /* Double+extension.swift in Sources */,
+				0C85A5AA281C46DB00EB3570 /* CostCalculationStrategy.swift in Sources */,
+				0C85A5A6281C46DB00EB3570 /* StandardCostCalculatorStrategy.swift in Sources */,
 				0C9678BF281B0F4900340220 /* Designables.swift in Sources */,
+				0C85A59E281C469800EB3570 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				0C85A598281C45B500EB3570 /* MobilePlayslipsActions.swift in Sources */,
 				0C92E8EC281B09A6003F7AA3 /* WagerType.swift in Sources */,
 				0C92E8DC281B08EC003F7AA3 /* MPSLineBuilderViewController.swift in Sources */,
+				0C85A5B9281C476000EB3570 /* PlayslipEncodingStrategy.swift in Sources */,
+				0C85A5BF281C476000EB3570 /* AllOrNothingEncodingStrategy.swift in Sources */,
+				0C85A596281C3F0100EB3570 /* PlayslipGameWagerOption.swift in Sources */,
+				0C85A5A8281C46DB00EB3570 /* CostCalculationContext.swift in Sources */,
+				0C85A572281C244800EB3570 /* ReswiftTestHelpers.swift in Sources */,
+				0C85A5BC281C476000EB3570 /* KenoEncodingStrategy.swift in Sources */,
+				0C85A562281B234900EB3570 /* Array+extension.swift in Sources */,
+				0C85A588281C3E9600EB3570 /* NumberSequenceType.swift in Sources */,
+				0C85A5A9281C46DB00EB3570 /* ComboCostCalculationStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

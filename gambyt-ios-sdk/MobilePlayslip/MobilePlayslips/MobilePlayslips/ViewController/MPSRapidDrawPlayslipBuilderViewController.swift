@@ -14,14 +14,7 @@ class MPSRapidDrawPlayslipBuilderViewController: UIViewController, NumberGridSel
         var game: PlayslipGame?
 
         init(state: AppState) {
-            let tabIndex = Dependencies.tabNavigationController?.selectedTab ?? 0
-            guard let appContext = AppContext(rawValue: tabIndex) else { return }
-            let gameId = state.gameDetails[appContext]?.gameDetailsSelectedGameIdentifier
-            let playslipGames = state.playslips.games
-            
-            self.game = playslipGames.first(where: { (g) -> Bool in
-                g.identifier.rawValue == gameId
-            })
+
         }
     }
     

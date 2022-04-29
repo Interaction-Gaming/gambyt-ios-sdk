@@ -19,13 +19,7 @@ struct MultiLinePlayslipBuilderSubState: Equatable {
     var game: PlayslipGame?
 
     init(state: AppState) {
-        guard let tabIndex = Dependencies.tabNavigationController?.selectedTab, let appContext = AppContext(rawValue: tabIndex) else { return }
-        guard let gameId = state.gameDetails[appContext]?.gameDetailsSelectedGameIdentifier else { return }
-        let playslipGames = state.playslips.games
-        
-        self.game = playslipGames.first(where: { (g) -> Bool in
-            g.identifier.rawValue == gameId
-        })
+
     }
 }
 

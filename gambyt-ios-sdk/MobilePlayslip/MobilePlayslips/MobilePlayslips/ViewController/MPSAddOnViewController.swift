@@ -18,12 +18,8 @@ class MPSAddOnViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     struct Props {
         init(state: AppState) {
-            if let username = state.sessionState.decodedAccessToken()["username"] as? String {
-                userId = PlayslipUserIdMetadata(type: .playerId, id: username)
-            } else {
-                let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? "invalid_device_id"
-                userId = PlayslipUserIdMetadata(type: .deviceId, id: deviceId)
-            }
+            let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? "invalid_device_id"
+            userId = PlayslipUserIdMetadata(type: .deviceId, id: deviceId)
         }
         
         let userId: PlayslipUserIdMetadata
